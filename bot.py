@@ -361,4 +361,5 @@ async def on_message(message):
     await bot.process_commands(message)
 
 keep_alive()
-bot.run("MTU2ODcwNDMwNDMxNzk4ODk0NA.GO7wHE.zqqdPPpWAy5iEtcPVb0wv8Gr-IOXNzAY45CxXM")
+bot.run(os.environ.get('MTU2ODcwNDMwNDMxNzk4ODk0NA.GO7wHE.zqqdPPpWAy5iEtcPVb0wv8Gr-IOXNzAY45CxXM'))
+
